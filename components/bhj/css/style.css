@@ -6,31 +6,35 @@
   --light-gray: #718096;
 }
 
-.develop-method a {
+.develop-method a,
+.resources a {
   color: currentColor;
   text-decoration: 0;
 }
 
-.develop-method ul {
+.develop-method ul,
+.resources ul {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.develop-method .inner {
-  width: 1230px;
-  margin: 0 auto;
 }
 
 .develop-method, .resources, .hire {
   font-family: 'Inter', sans-serif;
 }
 
-.develop-method {
+.develop-method .inner,
+.resources .inner {
+  width: 1230px;
+  margin: 0 auto;
+}
+
+.develop-method, .resources {
   padding-top: 118px;
 }
 
-.develop-method .title {
+.develop-method .title,
+.resources .title {
   position: relative;
   color: var(--black);
   font-size: 35px;
@@ -39,7 +43,8 @@
   line-height: 55px;
 }
 
-.develop-method .title::before {
+.develop-method .title::before,
+.resources .title::before {
   position: absolute;
   content: "";
   top: -25px;
@@ -154,7 +159,6 @@
   width: 2px;
   height: 30px;
   background: linear-gradient(-90deg, #F76680 0%, #F76680 50%, #57007B 100%);
-
 }
 
 .develop-method li[class^=method]:nth-of-type(2n-1)::after {
@@ -163,4 +167,51 @@
 
 .develop-method li[class^=method]:nth-of-type(2n)::after {
   top: -45px;
+}
+
+.resources {
+  overflow: hidden;
+}
+
+.resources .blog-post-container {
+  display: grid;
+  position: relative;
+  margin-top: 66px;
+  grid-template-columns: repeat(9, 1fr);
+  column-gap: 60px;
+  font-weight: 500;
+  left: -30px;
+}
+
+.resources .blog-post {
+  width: 254px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+}
+
+.resources .post-caption {
+  margin-top: 20px;
+  color: var(--dark-gray);
+}
+
+.resources .more {
+  position: relative;
+  display: block;
+  padding-right: 40px;
+  color: #57007B;
+  align-self: end;
+  cursor: pointer;
+}
+
+.resources .more::after {
+  display: inline;
+  position: absolute;
+  content: "";
+  margin-left: 19px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  background: url('/images/bhj/icon-arrow.svg') no-repeat center / contain;
+  transform: translateY(-50%);
 }
