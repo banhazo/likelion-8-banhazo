@@ -215,3 +215,20 @@
   background: url('/images/bhj/icon-arrow.svg') no-repeat center / contain;
   transform: translateY(-50%);
 }
+
+.hire {
+  margin: 149px auto 99px;
+  padding: 88px 84px;
+  width: 1230px;
+  height: 285px;
+  border-radius: 20px;
+  background: url('/images/bhj/icon-hire.svg') no-repeat right 84px center,
+  linear-gradient(225deg, #F1F1F5 0%, #E4ECF7 100%);
+}
+
+.hire p {
+  width: 531px;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.55;
+}
