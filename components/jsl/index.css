@@ -1,0 +1,141 @@
+@import "./reset.css";
+
+body {
+  color: #4a5568;
+  font-family: Inter;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* header */
+
+.header {
+  height: 80px;
+  padding: 10px 25px;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header-inner {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav-ul {
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 28.2px;
+}
+
+.header-li {
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.header-button {
+  border-radius: 5px;
+  background: linear-gradient(225deg, #6675f7 0%, #57007b 100%);
+  padding: 14px 25px;
+  color: #fafafa;
+  font-size: 14px;
+}
+
+/* section - intro */
+
+.intro {
+  margin-top: 69px;
+}
+
+.intro .intro-start {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.intro .intro-text {
+  width: 531px;
+}
+
+.intro .intro-text-headline {
+  color: #1a202c;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 71px;
+}
+
+.intro .intro-headline-product {
+  background: linear-gradient(180deg, #de4396 0%, rgba(13, 28, 159, 0.4) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.intro .intro-headline-built {
+  font-size: 53px;
+  font-weight: 800;
+}
+
+.intro .intro-headline-teams {
+  background: linear-gradient(225deg, #f7666f 0%, #406aff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 53px;
+  font-weight: 800;
+}
+
+.intro .intro-text-body {
+  margin-top: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.intro .intro-start-btn {
+  display: inline-block;
+  margin-top: 70px;
+  border-radius: 5px;
+  background: #3d63ea;
+  box-shadow: 0px 4px 49px 0px rgba(0, 0, 0, 0.15);
+  padding: 19px 30px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #fafafa;
+}
+
+.intro .intro-start-image {
+  width: 614px;
+  height: 546px;
+}
+
+.intro .intro-offer {
+  margin-top: 107px;
+  text-align: center;
+}
+
+.intro .offer-cardbox {
+  margin-top: 73px;
+  width: 1865px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+}
+
+.intro .offer-card {
+  width: 333px;
+  box-shadow: 0px 0px 15px rgba(81, 80, 80, 0.2);
+}
