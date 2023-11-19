@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@300;400;600;700&family=Roboto:wght@100&family=Shizuru&display=swap");
+
+.ljh-main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 79px 105px 119px;
+  font-family: Inter;
+}
+
+.ljh-main-h2 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 55px;
+  color: #1a202c;
+  padding: 0 0 73px 0;
+}
+
+.ljh-main-h2 b {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.ljh-main .divider {
+  margin: 0 auto;
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  width: 69px;
+  height: 5px;
+}
+
+.ljh-section-h3 {
+  color: #1a202c;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 136.023%;
+  padding-bottom: 30px;
+}
+
+.ljh-wrapper {
+  display: flex;
+  column-gap: 124px;
+  width: 1233px;
+  height: 473px;
+}
+
+.ljh-section-1 {
+  width: 534px;
+  height: 433px;
+}
+
+.ljh-section-p1 {
+  color: #2d3748;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  height: 113px;
+  padding-bottom: 10px;
+}
+
+.ljh-section-p2 {
+  color: #2d3748;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  height: 69px;
+  padding-bottom: 20px;
+}
+
+.ljh-section-p2 span {
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.ljh-section-p3 {
+  position: relative;
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 30px;
+  width: 435px;
+  height: 87px;
+  padding: 0 0 25px 15px;
+}
+
+.ljh-section-p3::before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 87px;
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  left: 0;
+}
+
+.ljh-ceo-1 {
+  display: flex;
+  column-gap: 10px;
+  width: 172px;
+  height: 41px;
+}
+
+.ljh-section-p4 {
+  color: #1a202c;
+  font-size: 16px;
+  font-weight: 400;
+  width: 121px;
+  height: 40px;
+}
+
+.ljh-section-p4 span {
+  color: #718096;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.ljh-big-1 {
+}
