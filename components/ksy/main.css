@@ -1,0 +1,244 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: normal;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  font-size: inherit;
+  text-transform: inherit;
+  background: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* common */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* section.dev-approach style */
+.dev-approach {
+  width: 100%;
+  padding: 70px 90px;
+  background-color: #f7f7fa;
+  overflow: hidden;
+}
+
+.dev-approach h2 {
+  position: relative;
+  margin-top: 25px;
+  font-size: 35px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.dev-approach h2::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  width: 69px;
+  height: 5px;
+  background: var(
+    --gradient-primary-bg,
+    linear-gradient(225deg, #f76680 0%, #57007b 100%)
+  );
+  transform: translateX(-50%);
+}
+
+.dev-approach h2 p:last-child {
+  font-weight: 700;
+}
+
+.dev-approach .card-wrap {
+  max-width: 1233px;
+  margin: 80px auto 0;
+}
+
+.dev-approach .card-wrap ul {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 25px;
+}
+
+.dev-approach .card {
+  display: flex;
+  column-gap: 25px;
+  padding: 59px 33px 40px;
+  border: 1px solid #e7daed;
+  background: #fafafa;
+}
+
+.dev-approach .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 59px;
+  min-width: 59px;
+  height: 56px;
+  min-height: 56px;
+}
+
+.dev-approach .bg1 {
+  background: url('./images/icon-bg1.svg') no-repeat;
+}
+
+.dev-approach .bg2 {
+  background: url('./images/icon-bg2.svg') no-repeat;
+}
+
+.dev-approach .bg3 {
+  background: url('./images/icon-bg3.svg') no-repeat;
+}
+
+.dev-approach .bg4 {
+  background: url('./images/icon-bg4.svg') no-repeat;
+}
+
+.dev-approach .bg5 {
+  background: url('./images/icon-bg5.svg') no-repeat;
+}
+
+.dev-approach .bg6 {
+  background: url('./images/icon-bg6.svg') no-repeat;
+}
+
+.dev-approach .card-text-box {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 10px;
+}
+
+.dev-approach .card-text-box .card-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.36;
+  text-transform: capitalize;
+}
+
+/* tech stack style */
+.tech-stack {
+  width: 100%;
+  padding: 70px 90px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.tech-stack h2 {
+  position: relative;
+  margin-top: 25px;
+  font-size: 35px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.tech-stack h2::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  width: 69px;
+  height: 5px;
+  background: var(
+    --gradient-primary-bg,
+    linear-gradient(225deg, #f76680 0%, #57007b 100%)
+  );
+  transform: translateX(-50%);
+}
+
+.tech-stack h2 p:last-child {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.tech-stack .tab-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 60px;
+  margin-top: 38px;
+  font-size: 18px;
+  line-height: 1.66;
+  text-transform: capitalize;
+}
+
+.tech-stack .tab button.is--active {
+  position: relative;
+  font-weight: 600;
+  color: transparent;
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.tech-stack .tab button.is--active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  width: 25px;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  transform: translateX(-50%);
+}
+
+.tech-stack .panel-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 60px;
+  max-width: 1100px;
+  margin: 70px auto 0;
+}
+
+@media (min-width: 768px) {
+  .dev-approach .card-wrap ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dev-approach .card {
+    flex-flow: column nowrap;
+    row-gap: 16px;
+  }
+
+  .tech-stack .tab-bar {
+    flex-flow: row nowrap;
+  }
+}
+
+@media (min-width: 960px) {
+  .dev-approach .card {
+    flex-flow: row nowrap;
+  }
+
+  .tech-stack .tab-bar {
+    flex-flow: row nowrap;
+  }
+}
