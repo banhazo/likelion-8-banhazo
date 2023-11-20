@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+.ljh-footer {
+  display: flex;
+  margin: 0 auto;
+  font-family: Inter;
+  width: 1230px;
+  height: 294px;
+  padding: 34px 105px 168px;
+}
+
+.footer-section-1 {
+  padding-right: 78px;
+}
+
+.ljh-footer-logo {
+  display: block;
+  width: 123px;
+  height: 41px;
+  padding-bottom: 14px;
+}
+
+.ljh-footer-logo img {
+  width: 123px;
+  height: 41px;
+}
+
+.section-1-p {
+  width: 372px;
+  height: 58px;
+  color: #718096;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 36px;
+}
+
+.footer-section-2 {
+  padding-right: 87px;
+}
+
+.footer-section-2-list b {
+  display: block;
+  width: 47px;
+  height: 22px;
+  color: #4a5568;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.09px;
+  padding-bottom: 19px;
+}
+
+.footer-section-2-list {
+  width: 133px;
+  height: 252px;
+}
+
+.footer-section-2-list a {
+  color: #718096;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 236.3%;
+}
+
+.footer-section-3-list b {
+  display: block;
+  width: 96px;
+  height: 22px;
+  color: #4a5568;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.09px;
+  padding-bottom: 24px;
+}
+
+.footer-section-3-list p,
+a {
+  color: #718096;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer-section-3-list p {
+  padding-bottom: 20px;
+}
