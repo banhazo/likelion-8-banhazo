@@ -115,6 +115,9 @@ body {
   align-items: center;
   cursor: pointer;
 }
+.about .circle-inner i {
+  color: var(--white--1);
+}
 
 .about .arrow-cover {
   text-align: right;
