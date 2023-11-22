@@ -63,17 +63,7 @@
   width: 945px;
   height: 197px;
   list-style: none;
-}
-
-.intro-container:first-child,
-.intro-container:last-child {
-  max-width: 121px;
-  max-height: 162px;
-}
-
-.intro-container:nth-child(2n) {
-  max-width: 138px;
-  max-height: 171px;
+  width: 100%;
 }
 
 .wrapper {

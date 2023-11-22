@@ -6,7 +6,6 @@
   align-items: center;
   padding: 79px 105px 119px;
   font-family: Inter;
-  row-gap: 95px;
 }
 
 .ljh-main-h2 {
@@ -19,6 +18,7 @@
   line-height: 55px;
   color: #1a202c;
   padding: 0 0 73px 0;
+  margin: 20px 0 50px;
 }
 
 .ljh-main-h2 b {
