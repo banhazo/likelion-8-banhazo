@@ -1,6 +1,6 @@
 @import "./reset.css";
 
-body {
+* {
   color: #4a5568;
   font-family: Inter;
 }
@@ -37,7 +37,7 @@ body {
 .header-nav-ul {
   display: flex;
   flex-flow: row nowrap;
-  column-gap: 28.2px;
+  column-gap: 48.2px;
 }
 
 .header-li {
@@ -129,8 +129,24 @@ body {
 }
 
 .intro .intro-offer {
-  margin: 107px 0;
+  margin: 51px 0;
   text-align: center;
+  background: #f9f9ff;
+  padding-top: 46px;
+  border-top: 1px solid #e7daed;
+  position: relative;
+}
+
+.intro .intro-offer::before {
+  content: "";
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  top: -35px;
+  left: 30%;
+  z-index: -1;
 }
 
 .intro .offer-cardbox-wrapper {
