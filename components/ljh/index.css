@@ -6,6 +6,7 @@
   align-items: center;
   padding: 79px 105px 119px;
   font-family: Inter;
+  gap: 95px;
 }
 
 .ljh-main-h2 {
@@ -18,7 +19,6 @@
   line-height: 55px;
   color: #1a202c;
   padding: 0 0 73px 0;
-  margin: 20px 0 50px;
 }
 
 .ljh-main-h2 b {
@@ -32,6 +32,7 @@
   background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
   width: 69px;
   height: 5px;
+  margin-bottom: -70px;
 }
 
 .ljh-section-h3 {
