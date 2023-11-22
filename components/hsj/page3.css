@@ -1,0 +1,240 @@
+
+.hsj-main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  position: relative;
+}
+
+.comma1 {
+  position: absolute;
+  top: 325px;
+  left: 900px;
+}
+
+.comma2 {
+  position: absolute;
+  top: 450px;
+  right: 900px;
+}
+
+.deco-line {
+  width: 69px;
+  height: 5px;
+  background: url(../../images/hsj/Deco-line.png);
+  margin-top: 123px;
+}
+
+.heading {
+  font-family: Inter;
+  width: 474px;
+  height: 108px;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  margin-top: 20px;
+  margin-bottom: 63px;
+}
+
+.heading b {
+  font-weight: 700;
+}
+
+.description {
+  font-family: Inter;
+  width: 535px;
+  height: 181px;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  color: #718096;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 76px;
+  width: 945px;
+  height: 197px;
+  list-style: none;
+}
+
+.intro-container:first-child, .intro-container:last-child {
+  max-width: 121px;
+  max-height: 162px;
+}
+
+.intro-container:nth-child(2n) {
+  max-width: 138px;
+  max-height: 171px;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.wrapper2 {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
+
+/* sec1  */
+
+.sec1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1232px;
+  height: 416px;
+}
+
+/* 왜 이미지 영역에 z-index 우선순위를 줬는데 위로 안올라올까? */
+.img1 {
+  width: 601px; 
+  height: 416px;
+  z-index: 10;
+}
+
+.article1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  width: 723px;
+  height: 416px;
+  padding: 66px 51px 91px;
+  background: #F1F2FF;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.article1 p {
+  color: var(--gray-gray-800, #2D3748);
+  text-align: left;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 136.023%;
+}
+
+.article1 span {
+  color: #4A5568;
+  text-align: left;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.023%;
+  padding-bottom: 60px;
+}
+
+/* sec2  */
+
+.sec2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1232px;
+  height: 416px;
+}
+
+.img2 {
+  width: 601px; 
+  height: 416px;
+ }
+
+.article2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 631px;
+  height: 416px;
+  padding: 66px 51px 91px;
+  background: #F0FFF7;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.article2 p {
+  color: var(--gray-gray-800, #2D3748);
+  text-align: left;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 136.023%;
+}
+
+.article2 span {
+  color: #4A5568;
+  text-align: left;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.023%;
+  padding-bottom: 60px;
+}
+
+/* sec3 */
+
+.sec3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1232px;
+  height: 416px;
+}
+
+.img3 {
+  width: 601px; 
+  height: 416px;
+ }
+
+.article3 {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 631px;
+  height: 416px;
+  padding: 66px 51px 91px;
+  background: #FFF4F4;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.article3 p {
+  color: var(--gray-gray-800, #2D3748);
+  text-align: left;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 136.023%;
+}
+
+.article3 span {
+  color: #4A5568;
+  text-align: left;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.023%;
+  padding-bottom: 60px;
+}
+
+.read1 .read2 .read3 {
+  display: block;
+  text-align: ;
+}
