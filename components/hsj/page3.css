@@ -1,4 +1,3 @@
-
 .hsj-main {
   display: flex;
   flex-flow: column nowrap;
@@ -8,14 +7,16 @@
 
 .comma1 {
   position: absolute;
-  top: 325px;
-  left: 900px;
+  top: 50%;
+  left: 30%;
 }
 
 .comma2 {
   position: absolute;
   top: 450px;
   right: 900px;
+  top: 50%;
+  right: 30%;
 }
 
 .deco-line {
@@ -64,7 +65,8 @@
   list-style: none;
 }
 
-.intro-container:first-child, .intro-container:last-child {
+.intro-container:first-child,
+.intro-container:last-child {
   max-width: 121px;
   max-height: 162px;
 }
@@ -101,7 +103,7 @@
 
 /* 왜 이미지 영역에 z-index 우선순위를 줬는데 위로 안올라올까? */
 .img1 {
-  width: 601px; 
+  width: 601px;
   height: 416px;
   z-index: 10;
 }
@@ -113,12 +115,12 @@
   width: 723px;
   height: 416px;
   padding: 66px 51px 91px;
-  background: #F1F2FF;
+  background: #f1f2ff;
   border-radius: 0px 30px 30px 0px;
 }
 
 .article1 p {
-  color: var(--gray-gray-800, #2D3748);
+  color: var(--gray-gray-800, #2d3748);
   text-align: left;
   font-family: Inter;
   font-size: 28px;
@@ -128,7 +130,7 @@
 }
 
 .article1 span {
-  color: #4A5568;
+  color: #4a5568;
   text-align: left;
   font-family: Inter;
   font-size: 14px;
@@ -149,9 +151,9 @@
 }
 
 .img2 {
-  width: 601px; 
+  width: 601px;
   height: 416px;
- }
+}
 
 .article2 {
   box-sizing: border-box;
@@ -161,12 +163,12 @@
   width: 631px;
   height: 416px;
   padding: 66px 51px 91px;
-  background: #F0FFF7;
+  background: #f0fff7;
   border-radius: 0px 30px 30px 0px;
 }
 
 .article2 p {
-  color: var(--gray-gray-800, #2D3748);
+  color: var(--gray-gray-800, #2d3748);
   text-align: left;
   font-family: Inter;
   font-size: 28px;
@@ -176,7 +178,7 @@
 }
 
 .article2 span {
-  color: #4A5568;
+  color: #4a5568;
   text-align: left;
   font-family: Inter;
   font-size: 14px;
@@ -197,9 +199,9 @@
 }
 
 .img3 {
-  width: 601px; 
+  width: 601px;
   height: 416px;
- }
+}
 
 .article3 {
   box-sizing: border-box;
@@ -209,12 +211,12 @@
   width: 631px;
   height: 416px;
   padding: 66px 51px 91px;
-  background: #FFF4F4;
+  background: #fff4f4;
   border-radius: 0px 30px 30px 0px;
 }
 
 .article3 p {
-  color: var(--gray-gray-800, #2D3748);
+  color: var(--gray-gray-800, #2d3748);
   text-align: left;
   font-family: Inter;
   font-size: 28px;
@@ -224,7 +226,7 @@
 }
 
 .article3 span {
-  color: #4A5568;
+  color: #4a5568;
   text-align: left;
   font-family: Inter;
   font-size: 14px;
