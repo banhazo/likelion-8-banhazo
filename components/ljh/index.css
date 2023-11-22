@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@300;400;600;700&family=Roboto:wght@100&family=Shizuru&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@300;400;600;700&family=Roboto:wght@100&family=Shizuru&display=swap');
 
 .ljh-main {
   display: flex;
@@ -99,7 +99,7 @@
 
 .ljh-section-p3::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 3px;
   height: 87px;
   background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
