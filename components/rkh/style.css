@@ -1,0 +1,150 @@
+:root {
+  --gradient: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  --black: #1a202c;
+  --white--1: #ffffff;
+  --white--2: #f7f7fa;
+  --white--op: rgba(255, 255, 255, 0.43);
+  --gray: #718096;
+  --purple: #57007b;
+  --light-purple: rgba(231, 218, 237, 1);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.about {
+  overflow-x: hidden;
+  background-color: var(--white--1);
+}
+.about .top.half-circle,
+.about .content-cover {
+  margin: 0 105px;
+}
+.about .half-circle {
+  width: 4.5rem;
+  height: 2.25rem;
+  background: var(--gradient);
+  &.top {
+    margin-bottom: 185px;
+    border-radius: 0 0 5rem 5rem;
+  }
+  &.bottom {
+    border-radius: 5rem 5rem 0 0;
+    margin-left: 1000px;
+  }
+}
+.about .detail-cover {
+  display: flex;
+  justify-content: space-between;
+}
+.short.divider {
+  width: 69px;
+  height: 5px;
+  background: var(--gradient);
+}
+.about .detail {
+  width: 530px;
+}
+.about h2 {
+  color: var(--black);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 55px;
+  margin: 20px 0 30px;
+}
+.about b {
+  display: block;
+  font-weight: 700;
+}
+
+.about .detail p {
+  color: var(--gray);
+  font-size: 18px;
+  line-height: 36px;
+}
+.about em {
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+}
+.about a {
+  color: var(--purple);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-decoration: none;
+}
+.about .detail i {
+  padding-left: 10px;
+  padding-bottom: 200px;
+}
+/* start: video */
+.about .video {
+  width: 600px;
+  height: 460px;
+  background: url(/images/rkh/video-box.png) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .circle-cover {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background-color: var(--white--op);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .circle-inner {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: var(--purple);
+  border: 1px solid var(--white--1);
+  color: var(--white--1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.about .arrow-cover {
+  text-align: right;
+}
+.about .arrow-cover i {
+  width: 43px;
+  height: 43px;
+  line-height: 43px;
+  border: 2px solid var(--purple);
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  &.fa-arrow-left {
+    background-color: var(-white);
+    color: var(--purple);
+  }
+  &.fa-arrow-right {
+    background-color: var(--purple);
+    color: var(--white--1);
+  }
+}
+.logo-list {
+  background-color: var(--light-purple);
+  background-color: var(--white--2);
+  border: 1px solid var(--light-purple);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  overflow-x: scroll;
+  padding: 60px 0;
+}
